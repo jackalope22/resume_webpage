@@ -1,6 +1,93 @@
+body{
+    background-color: rgb(204, 203, 203);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page-container{
+    max-width: 1800px;
+}
+.left-column{
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+    -moz-box-shadow: 5px 5px 5px rgb(129, 129, 129); 
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+.image-background{
+    position: relative;
+    min-width: 100%;
+    min-height: 400px;
+    background-color: rgb(151, 181, 223);
+}
+.name-block{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+p.position,
+p.location,
+p.email,
+p.contact{
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-p {
+.right-column{
+    background-color: rgb(235, 235, 235);
+    box-shadow: 5px 5px 5px rgb(129, 129, 129);
+    -moz-box-shadow: 5px 5px 5px rgb(129, 129, 129);
+    float: left;
+    width: 62%;
+    padding: 10px;
+    margin: 10px;
+
+}
+i{
+    padding: 6px;
+    color: rgb(151, 181, 223)
+}
+.footer{
+    float: left;
+}
+.skills{
+    font-size: 24px;
+}
+.classes{
+    font-size: 24px;
+}
+.python-percent{
     text-align: center;
+}
+.python-graph{
+    background-color: rgb(151, 181, 223);
+    border-radius: 20px;
+    max-width: 90%;
+}
+.os-percent{
+    text-align: center;
+}
+.os-graph{
+    background-color: rgb(151, 181, 223);
+    border-radius: 20px;
+    max-width: 80%;
+}
+.tpmc-percent{
+    text-align: center;
+}
+.tpmc{
+    background-color: rgb(151, 181, 223);
+    border-radius: 20px;
+    max-width: 50%;
+}
+h6.date{
+    font-size: 16px;
+}
+h5{
+    font-size: 20px;
 }
